@@ -6,7 +6,7 @@
         "sans": {
           "serif": {
             "source": "$font-family-sans-serif",
-            "$value": "Inter, 'Helvetica Neue', Arial, sans-serif",
+            "$value": "'GT Walsheim', Roboto, 'Helvetica Neue', Arial, sans-serif",
             "$description": "Sans-serif font family."
           }
         },
@@ -127,6 +127,18 @@
       },
       "weight": {
         "$type": "fontWeight",
+        "light": {
+          "$value": "300"
+        },
+        "regular": {
+          "$value": "400"
+        },
+        "medium": {
+          "$value": "500"
+        },
+        "bold": {
+          "$value": "700"
+        },
         "display": {
           "1": {
             "source": "$display1-weight",

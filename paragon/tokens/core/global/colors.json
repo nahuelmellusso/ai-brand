@@ -1,0 +1,18 @@
+{
+  "color": {
+    "brand": {
+      "primary": {
+        "$type": "color",
+        "$value": "#505fb4"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "#7a99fc"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "#bed2fc"
+      }
+    }
+  }
+}
