@@ -3,7 +3,7 @@
 build: clean dist build-tokens build-scss
 	mkdir -p dist/images/
 	cp *.svg *.png *.ico dist/images/
-	cp -r paragon/build paragon/images dist/paragon/
+	cp -r paragon/build paragon/images paragon/fonts dist/paragon/
 
 dist:
 	mkdir -p dist/paragon
