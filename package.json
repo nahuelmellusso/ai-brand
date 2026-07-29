@@ -12,7 +12,7 @@
     "build": "make build",
     "build-tokens": "make build-tokens",
     "build-scss": "make build-scss",
-    "prepare": "make build",
+    "prepare": "[ -x node_modules/.bin/paragon ] && make build || true",
     "prepack": "make build",
     "build:watch": "nodemon --ignore dist -x \"make build\"",
     "clean": "make clean",
