@@ -12,6 +12,7 @@
     "build": "make build",
     "build-tokens": "make build-tokens",
     "build-scss": "make build-scss",
+    "prepare": "make build",
     "prepack": "make build",
     "build:watch": "nodemon --ignore dist -x \"make build\"",
     "clean": "make clean",

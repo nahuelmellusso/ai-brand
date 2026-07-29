@@ -1,5 +1,8 @@
 {
   "color": {
+    "brand": {
+      "base": { "$value": "#505fb4", "$type": "color" }
+    },
     "primary": {
       "base": { "$value": "#505fb4", "$type": "color" },
       "100":  { "$value": "#e8eaf6", "$type": "color" },

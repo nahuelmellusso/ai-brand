@@ -1,28 +1,25 @@
-[data-theme="light"] {
-  // ── Primary (tu color principal #505fb4) ──────────────────────
-  --pgn-color-primary-base:         #505fb4;
-  --pgn-color-primary-100:          #e8eaf6;
-  --pgn-color-primary-200:          #c5c9e8;
-  --pgn-color-primary-300:          #9fa6d8;
-  --pgn-color-primary-500:          #505fb4;
-  --pgn-color-primary-700:          #3a4694;
-  --pgn-color-primary-900:          #252d6b;
+/* Brand color overrides for Paragon v23 light theme.
+   Appended to dist/light.css by the Makefile after paragon build-scss runs.
+   Paragon build-tokens recalculates primary/secondary tint shades (100/200/300/700/900)
+   via Style Dictionary transforms, overwriting any static values in the token JSON.
+   brand-base is not in the brand token JSON so it keeps Paragon's edX default (#9D0054).
+   These :root declarations come last in light.css and win the cascade. */
 
-  // ── Secondary (#7a99fc) ───────────────────────────────────────
-  --pgn-color-secondary-base:       #7a99fc;
-  --pgn-color-secondary-500:        #7a99fc;
-  --pgn-color-secondary-700:        #5070d4;
+:root {
+  /* Brand accent color - drives btn-brand, enrollment CTAs, and brand-variant components */
+  --pgn-color-brand-base:      #505fb4;
 
-  // ── Bg active (la clase que me mostraste antes) ───────────────
-  --pgn-color-bg-active:            #505fb4;
-  --pgn-color-active:               #ffffff;
+  /* Primary palette - restore brand values overwritten by paragon tint computation */
+  --pgn-color-primary-100:     #e8eaf6;
+  --pgn-color-primary-200:     #c5c9e8;
+  --pgn-color-primary-300:     #9fa6d8;
+  --pgn-color-primary-500:     #505fb4;
+  --pgn-color-primary-700:     #3a4694;
+  --pgn-color-primary-900:     #252d6b;
+  --pgn-color-primary-base:    #505fb4;
 
-  // ── Links ─────────────────────────────────────────────────────
-  --pgn-color-link:                 #505fb4;
-  --pgn-color-link-hover:           #3a4694;
-
-  // ── Botones ───────────────────────────────────────────────────
-  --pgn-color-btn-primary-bg:       #505fb4;
-  --pgn-color-btn-primary-border:   #505fb4;
-  --pgn-color-btn-primary-hover-bg: #3a4694;
+  /* Secondary palette */
+  --pgn-color-secondary-500:   #7a99fc;
+  --pgn-color-secondary-700:   #5070d4;
+  --pgn-color-secondary-base:  #7a99fc;
 }

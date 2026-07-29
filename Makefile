@@ -18,6 +18,8 @@ build-tokens:
 
 build-scss: dist
 	./node_modules/.bin/paragon build-scss --corePath ./paragon/core.scss --themesPath ./paragon/build/themes --source
+	./node_modules/.bin/sass --no-source-map --style=expanded   paragon/_overrides.scss | sed '/@charset/d' >> dist/light.css
+	./node_modules/.bin/sass --no-source-map --style=compressed paragon/_overrides.scss | sed '/@charset/d' >> dist/light.min.css
 
 clean:
 	rm -rf dist paragon/build

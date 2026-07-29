@@ -660,7 +660,7 @@
   --pgn-color-secondary-500: #7A99FCFF;
   --pgn-color-secondary-700: #405AAAFF;
   --pgn-color-secondary-base: #7A99FCFF;
-  --pgn-color-brand-base: #9D0054FF;
+  --pgn-color-brand-base: #505FB4FF;
   --pgn-color-light-base: #E1DDDBFF;
   --pgn-color-dark-base: #273F2FFF;
   --pgn-color-tertiary-base: #BED2FCFF;
@@ -1021,15 +1021,15 @@
   --pgn-color-secondary-600: #6E8AE3FF;
   --pgn-color-secondary-800: #5C73BDFF;
   --pgn-color-secondary-900: #556BB0FF;
-  --pgn-color-brand-100: #F9F0F5FF;
-  --pgn-color-brand-200: #E7BFD4FF;
-  --pgn-color-brand-300: #CE80AAFF;
-  --pgn-color-brand-400: #B6407FFF;
+  --pgn-color-brand-100: #F5F5FBFF;
+  --pgn-color-brand-200: #D3D7ECFF;
+  --pgn-color-brand-300: #A8AFDAFF;
+  --pgn-color-brand-400: #7C87C7FF;
   --pgn-color-brand-500: var(--pgn-color-brand-base);
-  --pgn-color-brand-600: #8D004CFF;
-  --pgn-color-brand-700: #7E0043FF;
-  --pgn-color-brand-800: #76003FFF;
-  --pgn-color-brand-900: #6E003BFF;
+  --pgn-color-brand-600: #4856A2FF;
+  --pgn-color-brand-700: #404C90FF;
+  --pgn-color-brand-800: #3C4787FF;
+  --pgn-color-brand-900: #38437EFF;
   --pgn-color-success-base: var(--pgn-color-green);
   --pgn-color-info-base: var(--pgn-color-teal);
   --pgn-color-warning-base: var(--pgn-color-yellow);
@@ -1071,7 +1071,7 @@
   --pgn-color-action-default-secondary-500: #4873FBFF;
   --pgn-color-action-default-secondary-700: #324685FF;
   --pgn-color-action-default-secondary-base: #4873FBFF;
-  --pgn-color-action-default-brand-base: #6A0039FF;
+  --pgn-color-action-default-brand-base: #3F4B92FF;
   --pgn-color-action-default-light-base: #CAC3BFFF;
   --pgn-color-action-default-dark-base: #142018FF;
   --pgn-color-action-default-accent-a: #0095C6FF;
@@ -1179,7 +1179,7 @@
   --pgn-color-btn-border-secondary: var(--pgn-color-btn-bg-secondary);
   --pgn-color-btn-border-outline-success: var(--pgn-color-success-base);
   --pgn-color-btn-border-outline-warning: var(--pgn-color-warning-base);
-  --pgn-color-btn-hover-text-inverse-brand: #770040FF;
+  --pgn-color-btn-hover-text-inverse-brand: #43509BFF;
   --pgn-color-btn-hover-text-inverse-dark: #18271DFF;
   --pgn-color-btn-hover-text-inverse-light: #D0C9C6FF;
   --pgn-color-btn-hover-text-outline-primary: var(--pgn-color-theme-hover-primary);
@@ -1205,7 +1205,7 @@
   --pgn-color-btn-hover-border-primary: var(--pgn-color-theme-hover-primary);
   --pgn-color-btn-hover-border-secondary: var(--pgn-color-theme-hover-secondary);
   --pgn-color-btn-hover-border-outline-secondary: var(--pgn-color-secondary-900);
-  --pgn-color-btn-active-text-inverse-brand: #6A0039FF;
+  --pgn-color-btn-active-text-inverse-brand: #3F4B92FF;
   --pgn-color-btn-active-text-inverse-dark: #142018FF;
   --pgn-color-btn-active-text-inverse-light: #CAC3BFFF;
   --pgn-color-btn-active-text-inverse-primary: #3F4B92FF;
@@ -1594,15 +1594,15 @@
   --pgn-color-action-default-secondary-600: #4368DBFF;
   --pgn-color-action-default-secondary-800: #4259A4FF;
   --pgn-color-action-default-secondary-900: #43558FFF;
-  --pgn-color-action-default-brand-100: #EACCDDFF;
-  --pgn-color-action-default-brand-200: #D99ABBFF;
-  --pgn-color-action-default-brand-300: #C05B91FF;
-  --pgn-color-action-default-brand-400: #903365FF;
-  --pgn-color-action-default-brand-500: #6A0039FF;
-  --pgn-color-action-default-brand-600: #5A0031FF;
-  --pgn-color-action-default-brand-700: #4B0028FF;
-  --pgn-color-action-default-brand-800: #430024FF;
-  --pgn-color-action-default-brand-900: #3B0020FF;
+  --pgn-color-action-default-brand-100: #D1D1ECFF;
+  --pgn-color-action-default-brand-200: #AFB7DDFF;
+  --pgn-color-action-default-brand-300: #848ECBFF;
+  --pgn-color-action-default-brand-400: #5866B8FF;
+  --pgn-color-action-default-brand-500: #3F4B92FF;
+  --pgn-color-action-default-brand-600: #38437FFF;
+  --pgn-color-action-default-brand-700: #30396DFF;
+  --pgn-color-action-default-brand-800: #2C3464FF;
+  --pgn-color-action-default-brand-900: #28305BFF;
   --pgn-color-action-default-success-base: #0F5737FF;
   --pgn-color-action-default-info-base: #004C77FF;
   --pgn-color-action-default-warning-base: #CCAE00FF;
@@ -1892,9 +1892,9 @@
   --pgn-color-link-base: var(--pgn-color-info-500);
   --pgn-color-link-inline-base: var(--pgn-color-info-500);
   --pgn-color-link-muted-inline-hover-decoration: #374280FF;
-  --pgn-color-link-brand-hover: #51002BFF;
-  --pgn-color-link-brand-inline-decoration: #9D00544D;
-  --pgn-color-link-brand-inline-hover-base: #51002BFF;
+  --pgn-color-link-brand-hover: #374280FF;
+  --pgn-color-link-brand-inline-decoration: #505FB44D;
+  --pgn-color-link-brand-inline-hover-base: #374280FF;
   --pgn-color-list-group-active-border: var(--pgn-color-list-group-active-bg);
   --pgn-color-action-default-success-100: #CFE7DDFF;
   --pgn-color-action-default-success-200: #A4CEBBFF;
@@ -2041,7 +2041,7 @@
   --pgn-color-link-hover: #003C5EFF;
   --pgn-color-link-inline-decoration: #006DAA4D;
   --pgn-color-link-inline-hover-base: #003C5EFF;
-  --pgn-color-link-brand-inline-hover-decoration: #51002BFF;
+  --pgn-color-link-brand-inline-hover-decoration: #374280FF;
   --pgn-color-btn-hover-text-danger: #FFFFFFFF;
   --pgn-color-btn-hover-text-info: #FFFFFFFF;
   --pgn-color-btn-hover-text-success: #FFFFFFFF;
@@ -4514,4 +4514,25 @@ a.text-dark:focus {
 
 .border-dark {
   border-color: var(--pgn-color-dark-base) !important;
+}/* Brand color overrides for Paragon v23 light theme.
+   Appended to dist/light.css by the Makefile after paragon build-scss runs.
+   Paragon build-tokens recalculates primary/secondary tint shades (100/200/300/700/900)
+   via Style Dictionary transforms, overwriting any static values in the token JSON.
+   brand-base is not in the brand token JSON so it keeps Paragon's edX default (#9D0054).
+   These :root declarations come last in light.css and win the cascade. */
+:root {
+  /* Brand accent color - drives btn-brand, enrollment CTAs, and brand-variant components */
+  --pgn-color-brand-base: #505fb4;
+  /* Primary palette - restore brand values overwritten by paragon tint computation */
+  --pgn-color-primary-100: #e8eaf6;
+  --pgn-color-primary-200: #c5c9e8;
+  --pgn-color-primary-300: #9fa6d8;
+  --pgn-color-primary-500: #505fb4;
+  --pgn-color-primary-700: #3a4694;
+  --pgn-color-primary-900: #252d6b;
+  --pgn-color-primary-base: #505fb4;
+  /* Secondary palette */
+  --pgn-color-secondary-500: #7a99fc;
+  --pgn-color-secondary-700: #5070d4;
+  --pgn-color-secondary-base: #7a99fc;
 }
